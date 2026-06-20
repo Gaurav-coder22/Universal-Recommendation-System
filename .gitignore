@@ -1,0 +1,35 @@
+# Virtual Environments
+.venv/
+venv/
+venv310/
+
+# Python
+__pycache__/
+*.pyc
+
+# Large Datasets
+data/
+datasets/
+
+# FAISS
+faiss_data/
+*.index
+*.npy
+
+# Voice Assistant Files
+voices/
+piper/
+
+# Audio
+*.wav
+*.mp3
+
+# Documents
+*.pdf
+*.docx
+
+# Cache
+.cache/
+
+# Allow sample datasets
+!sample_data/
